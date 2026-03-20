@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Clasificación Torneo de 99 NOCHES EN EL BOSQUE</title>
+    <style>
+        /* Estilo 1: Configuración general y bordes */
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        /* Estilo 2: Diseño de encabezados y títulos */
+        th {
+            background-color: #2c3e50;
+            color: white;
+            padding: 12px;
+            border: 1px solid #ddd;
+        }
+
+        /* Estilo 3: Celdas de datos y alineación */
+        td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        /* Estilo adicional para distinguir regiones y filas */
+        tr:nth-child(even) { background-color: #f9f9f9; }
+        .region-header { font-weight: bold; background-color: #ecf0f1; }
+        tfoot { background-color: #27ae60; color: white; font-weight: bold; }
+        
+        /* Accesibilidad y presentación */
+        caption {
+            caption-side: top;
+            padding: 12px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <table aria-label="Ranking global del torneo 99 Noches en el Bosque 2026">
+        <caption>RANKING GLOBAL - TORNEO DE 99 NOCHES EN EL BOSQUE 2026</caption>
+        <thead>
+            <tr>
+                <th scope="col">Región</th>
+                <th scope="col">Equipo</th>
+                <th scope="col" title="Juegos">J</th>
+                <th scope="col" title="Ganados">G</th>
+                <th scope="col" title="Perdidos">P</th>
+                <th scope="col">Puntos</th>
+                <th scope="col">Estado</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td rowspan="2" class="region-header">Norte</td>
+                <td>Equipo CYBORG</td>
+                <td>10</td>
+                <td>9</td>
+                <td>1</td>
+                <td>980</td>
+                <td>Clasificado</td>
+            </tr>
+            <tr>
+                <td>Equipo OSOS</td>
+                <td>10</td>
+                <td>7</td>
+                <td>3</td>
+                <td>870</td>
+                <td>Clasificado</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2" class="region-header">Sur</td>
+                <td>Equipo VAMPIRO</td>
+                <td>10</td>
+                <td>8</td>
+                <td>2</td>
+                <td>920</td>
+                <td>Clasificado</td>
+            </tr>
+            <tr>
+                <td>Equipo TILINOS</td>
+                <td>10</td>
+                <td>5</td>
+                <td>5</td>
+                <td>750</td>
+                <td>Eliminado</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="4">Campeón Actual: Equipo CYBORG</td>
+                <td colspan="3">Total Participantes: 4 Equipos</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
