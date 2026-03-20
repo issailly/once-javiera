@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Isabella Cano Bernal</title>
+  </head>
+  <body>
+
+    <!-- SECCIÓN 1: Tu presentación -->
+    <h1>Hola, soy isabella 👋</h1>
+    <p>Tengo 18 años y vivo en Medellin.</p>
+
+    <!-- SECCIÓN 2: Sobre ti -->
+    <h2>Sobre mí</h2>
+    <p> Me considero una persona muy empatica, con muchas habilidades especiales y me gusta mucho aprender cosas nuevas y por ello aprendo muy rapido. Me gustar dibujar y jugar videojuegos en linea. Mi comida favorita es la pizza.</p>
+
+    <!-- SECCIÓN 3: Tu foto -->
+    <h2>Mi foto</h2>
+    <img 
+      src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSGNfR4KFb8OaNuFfyxm4oEB3hOnHoDo9oNBMnsHwFEE2jMZ4_s" 
+      alt="Avatar de isa"
+      width="200"
+    >
+
+    <!-- SECCIÓN 4: Mis intereses -->
+    <h2>Mis intereses</h2>
+    <p>Algunas cosas que me gustan:</p>
+    <p>⭐ jugar roblox</p>
+    <p>⭐ dibujar o pintar en lienzo</p>
+
+    </body>
+    </html>
